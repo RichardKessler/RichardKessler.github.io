@@ -59,7 +59,7 @@ a:visited {
 }
 
 a:hover {
-    background-color: gold;
+    background-color: crimson;
 }
 
 a:active {
@@ -89,16 +89,6 @@ aside {
     height: 100%;
     font-family: fantasy;
     background-color: crimson;
-}
-
-aside,
-a:link,
-a:visited,
-a:hover,
-a:active {
-    text-decoration: none;
-    background-color: crimson;
-    text-decoration-color: crimson;
 }
 
 #about-me {
