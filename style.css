@@ -100,7 +100,8 @@ aside {
     color: azure;
 }
 
-#about-me img {
+#about-me img,
+#hobbies img {
     max-width: 300px;
 }
 
@@ -111,10 +112,6 @@ aside {
     font-family: inherit;
     background-color: gold;
     color: crimson;
-}
-
-#hobbies img {
-    max-width: 300px;
 }
 
 #social-media {
@@ -134,4 +131,9 @@ aside {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+#yoda {
+    max-width: 300px;
+    height: 210px;
 }
