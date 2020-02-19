@@ -103,6 +103,7 @@ aside {
 #about-me img,
 #hobbies img {
     max-width: 300px;
+    height: 225px;
 }
 
 #hobbies {
