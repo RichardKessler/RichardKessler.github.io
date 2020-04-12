@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: snow;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+a:link {
+    background-color: transparent;
+}
+
+a:visited {
+    background-color: transparent;
+}
+
+a:hover {
+    background-color: transparent;
+}
+
+.nav-link:active {
+    background-color: transparent;
+    text-decoration-color: crimson !important;
+    text-decoration: line-through;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+label {
+    color: crimson;
+    font-weight: bold;
+}
+
+.col-form-label {
+    font-size: xx-large;
+}
+
+.btn {
+    color: crimson;
+}

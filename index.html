@@ -2,60 +2,113 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richard Kessler</title>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Personal CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>Richard Kessler About Me</title>
 </head>
 
 <body>
+    <!--This is the navbar that links all the pages together-->
     <header>
-        <h1>Richard J. Kessler</h1>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgb(11, 94, 97);">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" style="color: crimson;" href="#">RK</a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
     </header>
+    <!-- This is the jumbotron with my ticker element -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Richard Kessler</h1>
+            <div class="lead">
+                <ul>
+                    <li>Student</li>
+                    <li>Gamer</li>
+                    <li>Developer</li>
+                    <li>^_^</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- The container that holds the entire about me section -->
+    <div class="container">
+        <section id="about" class="background aboutpadding">
+            <!-- the first row on the grid layout -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>About</h2>
+                </div>
+            </div>
+            <!-- the second row on the grid layout -->
+            <div class="row">
+                <!-- the first column that holds my picture -->
+                <div class="col-md-3">
 
-    <nav>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#social-media">Social Media</a></li>
-        </ul>
-    </nav>
+                    <img id="pic" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/13051690_10154806285337571_5649658652184916657_n.jpg?_nc_cat=102&_nc_ohc=HSZ1SWn5lLkAX-FOelQ&_nc_ht=scontent-iad3-1.xx&oh=c8681f9ab49087bef7a64413f77eb579&oe=5EB9291B" class="img-fluid"
+                        alt="Richard Closeup">
+                </div>
+                <!-- the second column that holds my biography -->
+                <div class="col-md-9">
 
-    <div id="rj"></div>
+                    <p>
+                        Hello my name is Richard Kessler and I am a student learning to become a Full Stack Developer. I only started to code at the start of 2020. I love working with computers and had a repair business in Maryland before moving to North Carolina. I am a huge
+                        gamer both tabletop and videogames. I like sports and watch most of them.
+                    </p>
+                    <br>
+                    <p>
+                        Becoming a developer certainly is a lot or work, but it is very worth it. I am learning a lot of new concepts that will provide me a great career. I cannot wait to see exactly what I will gravitate to by the end of my bootcamp and excel at.
+                    </p>
+                    <br>
+                    <p>
+                        I love to get together and play games. I have been a gamer since I can remember. I love both video games and tabletop games. I just love to play with people no matter the platform. I have a nice starting collection of tabletop games and a very extensive
+                        video game library. If you want to play I can always make some plans to teach or learn something new.
+                    </p>
+                    <br>
+                    <p>
+                        I enjoy watching sports and I would like to be able to play them again. I love football, Futbol, Baseball, and Hockey in no particular order. My favorite teams are the San Francisco 49ers, New York Yankees, New York Rangers, and I love the entire Premier
+                        League and DC United in the MLS.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Footer section -->
+    <div class="row">
+        <div class="col-md-12">
+            <footer class="footer mt-auto py-3" style="text-align: center;">
+                <div class="container">
+                    <span class="text-muted"><h3>Brought to you by Justice Computers<img src="./assets/Images/Justice Computers Logo (2).png" width="100px"></h3></span>
+                </div>
+            </footer>
+        </div>
+    </div>
 
-    <main>
-        <article class="content">
-            <section id="about-me">
-                <img src="../RichardKessler.github.io/images/Together.jpg" alt="Me and my wife together" class="float-left" />
-                <h2>About Me</h2>
-                <p>My name is Richard J. Kessler. I am 33 years old and live in Clayton, NC. I am married and have been for going on 2 years. I currently have 3 dogs and a fish. I am a huge gamer and love to get together and play games, both video and table
-                    top. I like sports and my professional teams include: San Francisco 49ers, New York Rangers, New york Yankees, DC United, Premier League (Man U, Chelsea).</p>
-            </section>
+    <!-- all the script code to run the elements above -->
 
-            <section id="hobbies">
-                <img src="../RichardKessler.github.io/images/FF14 Raid.jpg" alt="Final Fantasy 14 in-game raid boss fight" class="float-right" />
-                <h3>Hobbies</h3>
-                <p>My hobbies include playing games, both video and table top, watching/playing sports, and doing stuff with my wife. I have a good collection of video games across many systems and PC platforms. My table top gaming collection is still new
-                    but growing well. I am always looking for a game night! I root for my teams through think and thin. We are always going to win the championship that year!!</p>
-            </section>
-        </article>
-
-        <aside id="social-media">
-            <h4>Social Media</h4>
-
-            <a href="https://twitter.com/jidmenosta" target="_blank"><img src="https://img.shields.io/twitter/follow/JidMenosta?logoColor=Gold&style=social" alt="Twitter Badge" /></a>
-
-            <a href="https://github.com/RichardKessler" target="_blank"><img src="https://img.shields.io/github/followers/RichardKessler?label=Join%20the%20Clan&logoColor=Gold&style=social" alt="Follow my Github" /></a>
-
-            <a href="http://twitch.tv/JidMenosta" target="_blank"><img src="http://streambadge.com/twitch/custom/ed1e3d/ffd700/ffffff/JidMenosta.png" width="150" height="64" alt="JidMenosta's Streambadge"></a>
-
-            <img src="../RichardKessler.github.io/images/Force dog.jpg" alt="My dog Yoda" id="yoda">
-
-
-        </aside>
-
-    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

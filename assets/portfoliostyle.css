@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: crimson;
+    line-height: 1.5;
+}
+
+a:link {
+    background-color: transparent;
+}
+
+a:visited {
+    background-color: transparent;
+}
+
+a:hover {
+    background-color: transparent;
+}
+
+.nav-link:active {
+    text-decoration-color: crimson !important;
+    text-decoration: line-through;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: black;
+}

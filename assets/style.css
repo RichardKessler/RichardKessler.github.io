@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: snow;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    color: snow;
+}
+
+a:link {
+    background-color: transparent;
+}
+
+a:visited {
+    background-color: transparent;
+}
+
+a:hover {
+    background-color: transparent;
+}
+
+.nav-link:active {
+    text-decoration-color: crimson !important;
+    text-decoration: line-through;
+}
+
+.jumbotron {
+    background-color: rgb(11, 94, 97);
+    -webkit-margin-bottom-collapse: discard;
+}
+
+@keyframes lead {
+    0% {
+        margin-top: 0;
+    }
+    25% {
+        margin-top: -70px;
+    }
+    50% {
+        margin-top: -140px;
+    }
+    75% {
+        margin-top: -210px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+.lead {
+    background: inherit;
+    box-sizing: content-box;
+    height: 50px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.lead ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    animation-name: lead;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.lead li {
+    margin-top: 5px;
+    font-size: 40px;
+    color: crimson;
+}
+
+.background {
+    background-color: black;
+}
+
+.aboutpadding {
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+
+#about p {
+    color: crimson;
+}
