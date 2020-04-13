@@ -20,7 +20,7 @@ The last page I worked on was the portfolio page itself.  I inserted the navbar 
 ## Built With
 
 * Bootstrap Grid
-* HTML/CSS
+* HTML/CSS/JS
 * Github
 
 ## Credits
